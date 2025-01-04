@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDS22 Formula</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>"
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+   
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Shop</a></li>
+        <div class="logo">CDS<span class="highlight"> 22</span>-formula</div>
+        <li><a href="#">Become a Retailer</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Recipe</a></li>
+      </ul>
+      <div class="cart">
+        <a href="#" class="cart-icon">
+          <img src="https://via.placeholder.com/24" alt="Cart">
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </div>
+     
+    
+      <button id="addItem">Add Item to Cart</button>
+      <button id="removeItem">Remove Item from Cart</button>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    </nav>
+  </header>
+  <section>
+  <div class="hero-section">
+    <div class="text-content">
+      <h1>
+        The <span class="highlight">De Simone</span> <br>
+        <span class="highlight">Formulation</span> unique <br>
+        and certified by the <span class="highlight">Inventor</span>
+      </h1>
+      <p>The De Simone Formulation unique and certified by the Inventor</p>
+    </div>
+    <div class="image-content">
+      <img src="Screenshot 2025-01-04 001028.png" alt="CDS22 Formula Packaging">
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="row">
+      <div class="col-sm-5">
+          <img src="professor_desimone-1.png" class="pro" width="400px" height="500px"></div>
+          <div class="col-sm-2">
+          <ul>
+              <li style=" border: 2px dashed #1E90ff">20+ <br>year of research</li>
+              <li style=" border: 2px dashed #1E90ff">8<br>selected <br>bacterial<br>strain</li>
+              <li style=" border: 2px dashed #1E90ff">900<br>upto 900<br>billion<br>live bacterial<br>per sachet</li>
+              <li style=" border: 2px dashed #1E90ff">+200<br>scientific publication</li>
+              
+          </ul>
+        </div>
+      
+      <div class="col-sm-5">
+          <h1><span class="highlight">science </span> Speaks <br>For <span style="color:#1E90ff;"> itself</span></h1>
+          <p>The De Simone Formulation contained in CDS22/22 is the only probiotic formulation recommended and recognized by name in the American College of Gastroenterology AGA guidelines for the management of pouchitis and other pouch-related disorders (Olek et al., Gastroenterology Vol. 164, No. 6, 2023)</p>
+          <p>The European Crohn's and Colitis Organization (ECCO) has included the De Simone Formulation in its guidelines for the management of Inflammatory Bowel Diseases (IBD) (ECCO, ECCO News, 2022). CD22/22 is highly effective in the dietary management of various gastrointestinal conditions. The extensive scientific evidence provided over 200 peer-reviewed articles, ensures that the benefits observed in clinical trials are replicable in everyday use</p>
+          <a  href="#" style="border: 2px solid #1E90ff" ; id="anchor">VIEW PRODUCTS</a>
+      </div>
+     
+      
+
+  </div>
+  </section>
+<section>
+    <div classs="container pt-3">
+     <div class="row justify-content-center">
+          <div class="col-sm-5">
+          <h1 style="font-size: 100px;">Why Does It <span class="highlight">Works</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi numquam earum, repellendus, veritatis nemo ipsam placeat animi autem ad voluptatibus, aliquam iure voluptatem praesentium recusandae expedita in odit saepe distinctio amet? Et fugit culpa, odit voluptatem itaque magni, reiciendis omnis dicta fuga suscipit quo optio illo aperiam ab quia!</p></div>
+          <div class="col-sm-5 ms-5" >
+            <img src="cycle.png" alt="" width="600px" height="400px">
+          
+          </div>
+          </div>
+          </div>
+  </section>
+  <img alt="Decorative header image with abstract orange and gray waves" height="150" src="https://storage.googleapis.com/a1aa/image/Qe8IVHiqTMViBiAVZJfYqqRYjgdUI1KgTY6YP8fAFNZMzBDoA.jpg" width="1800"/>
+</div>
+<div class="container">
+ <div class="left-section">
+  Benefits:
+ </div>
+ <div class="right-section">
+  <h2>
+   CDS22-formula supports the dietary management of intestinal dysbiosis, contributing to well-being in cases of intestinal disorders connected to irritable bowel syndrome, ulcerative colitis, and pouches.
+  </h2>
+  <h3>
+   Control of intestinal dysbiosis:
+  </h3>
+  <p>
+   Intestinal dysbiosis is a condition where the natural balance of microorganisms in the intestine is altered, causing various gastrointestinal disorders. Controlling dysbiosis is crucial for maintaining digestive health, improving patient comfort, and contributing to overall well-being, even in cases of chronic intestinal disorders like irritable bowel syndrome, ulcerative colitis, and pouches.
+  </p>
+  <h3>
+   Immediate and prolonged restoration of intestinal flora:
+  </h3>
+  <p>
+   CDS22-formula is ideal for both acute and chronic episodes of intestinal dysbiosis. It reduces the severity and duration of symptoms, improving patient comfort and accelerating recovery. It is particularly indicated for supporting intestinal health and can be beneficial in cases of temporary or chronic intestinal disorders characterized by accelerated transit that prevents normal daily activities or adequate night rest.
+  </p>
+  <h3>
+   Variety of Dosages:
+  </h3>
+  <p>
+   Available in different formats and dosages to support intestinal health.
+  </p>
+ 
+ </div>
+ </div>
+</section>
+  
+
+  <section>
+    <h2>De <span>Simone</span> Formulation</h2>
+    <p>
+      The De Simone Formulation contained in CDS02-formula is the result of pioneering research by Professor Claudio De Simone (MD, FAGA), who redefined therapeutic approaches to intestinal health by introducing the use of high-concentration probiotic mixtures to dietetically manage acute and chronic gastrointestinal disorders.
+    </p>
+    <p>
+      His interest in the intestinal microbiota dates back to the 1980s, when the importance of the intestinal flora's role was just beginning to be understood. Professor De Simone is an honorary member of the American College of Gastroenterology and, after graduating in Medicine and Surgery, specialized in gastroenterology, allergology, and clinical immunology. He taught Infectious Diseases at the University of L’Aquila (Italy).
+    </p>
+    <p>
+      He has published over 200 clinical studies, scientific articles, and book chapters.
+    </p>
+    <p>
+      Since the commercial launch of his renowned De Simone Formulation in the 1990s, the Professor has actively advocated for better regulation and quality control of probiotics, highlighting their potential health and well-being risks.
+    </p>
+    <p>
+      As emphasized by Professor De Simone in numerous conferences and publications, many marketed probiotics have not been clinically tested or may not correspond to the original clinically tested formulations when marketed, causing substantial differences in the safety and efficacy of the final product (<a href="#">De Simone C, Clinical Gastroenterology and Hepatology, Vol. 16 No. 9, 2018</a>).
+    </p>
+    <p>
+      Current regulations often do not require thorough comparative studies to ensure that changes in manufacturing processes do not compromise the efficacy and safety of the commercially distributed probiotic product.
+    </p>
+  </section>
+
+  <section>
+    <h2>There is ONE <span>De Simone</span> Formulation</h2>
+    <p>
+      The lack of strict regulation and the possibility for manufacturers to modify formulations without adequately informing consumers pose a threat to public trust. In the past, the De Simone Formulation (DSF) was sold under the brand name VSL#3<sup>*</sup>, by VSL Pharmaceuticals and Actial Srl.
+    </p>
+    <p>
+      In 2019, VSL#3<sup>*</sup> distributors were found guilty of false advertising (<a href="#">Federal Judge Upholds $18M Verdict, Blocks False Advertising of VSL#3</a>, Schulman Bhattacharya). Recently, the European Crohn’s and Colitis Organisation (ECCO) has updated its guidelines to clarify that pre-2016 literature references to VSL#3<sup>*</sup> exclusively refer to DSF (ECCO, ECCO News, 2023). In 2024, ESPEN (European Society for Clinical Nutrition and Metabolism) published the article “<a href="#">Clarifying Correct Attributions in Scientific Literature: The Case of the De Simone Formulation and VSL#3</a>,” which reiterates the above.
+    </p>
+    <p>
+      The De Simone Formulation is sold under the brand name “Visbiome” in the USA and Canada (Exegi) and under the brand name “De Simone Formulation” in Korea (HectoHealthcare).
+    </p>
+    <p>
+      <strong>Soon to be available in the EU under the brand CDS02-formula.</strong>
+    </p>
+    <p class="footer-note">
+      <sup>*</sup>VSL#3 is a registered trademark of VSL Pharmaceuticals and Actial Srl Inc., independent companies from ExeGi2021 S.r.l.
+    </p>
+  </section>
+  <h1>Product packaging</h1>
+    <p>
+      CDS22-formula is available in sachets and capsules to meet specific tastes and needs. 
+      Each format of CDS22-formula is gluten-free and vegetarian.
+    </p>
+    <section class="carousel">
+      <span class="arrow" id="prev-arrow">&#10094;</span>
+      <div class="products" id="products-container">
+        <!-- Product 1 -->
+        <div class="product">
+          <img src="Screenshot 2025-01-04 101243.png" alt="CDS22-formula 900 billion sachets">
+          <h3>CDS22-formula<br><strong>900 billion sachets</strong></h3>
+          <p>Superior power<br>Potency: 900 billion live bacteria per sachet</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+         <!-- Product 2 -->
+      <div class="product">
+        <img src="2.png" alt="CDS22-formula 450 billion sachets">
+        <h3>CDS22-formula<br><strong>450 billion sachets</strong></h3>
+        <p>Strong and convenient<br>Format: Box of 12 sachets</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="3.png" alt="CDS22-formula 112 billion capsules">
+        <h3>CDS22-formula<br><strong>112 billion capsules</strong></h3>
+        <p>Efficient and flexible<br>Format: Box of 20 individually packaged capsules</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  <span class="arrow" id="next-arrow">&#10095;</span>
+</section>
+<h1><span class="highlight">follow the dosage instruction indicate on the pakaging</span></h1>
+<ol >
+  <li style="text-align: left;">do not exceed the started recommended daily dose</li>
+  <li style="text-align: left;">keep of reach of children</li>
+  <li style="text-align: left;"> CDS22-formula is a food supplement; it does not replace a varied and balanced diet
+  </li>
+  <li style="text-align: left;"> CDS22-formula is a food supplement; it does not replace a varied and balanced diet
+  </li>
+</ol>
+<div>
+<h1  class="highlight"><center><b style="font-size: 100px;">FAQ</b><center></h1>
+  <p class="paragraph" style="border: 1px solid;">What does CDS22-formula contain?</p>
+  <p class="paragraph" style="border: 1px solid;">What does CDS22-formula contain?</p>
+  <p class="paragraph"  style="border: 1px solid;">What does CDS22-formula contain?</p>
+  <p  class="paragraph" style="border: 1px solid;">What does CDS22-formula contain?</p>
+  <p  class="paragraph" style="border: 1px solid;">What does CDS22-formula contain?</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col" class="form">
+   <h2>CDS22-formula</h2>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+      
+      <div class="consent">
+        <input type="checkbox" id="consent" required>
+        <label for="consent">I consent to the processing of personal data.</label>
+      </div>
+      
+      <button type="submit">Send Message</button>
+    </form>
+    </div>
+    <div class="col">
+      <img src="4.png" alt="">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+   
+
